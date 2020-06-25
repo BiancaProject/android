@@ -26,3 +26,4 @@ mka bacon
 Credits:
 ========
  * [**Lineage OS**](https://github.com/LineageOS)
+ * [**Project Sakura**](https://github.com/ProjectSakura)
