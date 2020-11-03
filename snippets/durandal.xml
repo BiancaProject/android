@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- External -->
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="dudu" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="dudupriv" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudupriv" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+  <!-- System -->
+  <project path="system/vold" name="android_system_vold" remote="dudu" />  
+
+  <!-- Vendor -->
+  <project path="vendor/lineage" name="android_vendor_durandal" remote="dudupriv" />
+
+</manifest>

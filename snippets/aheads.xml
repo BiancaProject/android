@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="dudu"
+           fetch="https://github.com/Durandal-Project/"
+           revision="r"
+           sync-j="16" />
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Lineage remote -->
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-18.0" />
+
+  <!-- Private remote -->
+  <remote  name="dudupriv"
+           fetch="ssh://git@github.com/Durandal-Project"
+           revision="r" />
+  
+  <remote  name="gitpriv"
+           fetch="ssh://git@github.com/"
+           />
+
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/durandal.xml" />
+
+</manifest>
