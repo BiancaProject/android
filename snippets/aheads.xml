@@ -24,10 +24,6 @@
            fetch="ssh://git@github.com/Durandal-Project"
            revision="r" />
   
-  <remote  name="gitpriv"
-           fetch="ssh://git@github.com/"
-           />
-
   <include name="snippets/lineage.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/durandal.xml" />
