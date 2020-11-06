@@ -1,15 +1,15 @@
-Durandal Project
+Bianca Project
 ==============
 
 Getting started
 ---------------
 
-To get started with Durandal Project, you'll need to get
+To get started with Bianca Project, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
-To initialize your local repository using the Durandal Project trees, use a command like this:
+To initialize your local repository using the Bianca Project trees, use a command like this:
 ```
-repo init -u ssh://git@github.com/Durandal-Project/android.git -b r
+repo init -u ssh://git@github.com/BiancaProject/android.git -b r
 ```
 Then to sync up:
 ```

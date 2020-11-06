@@ -17,6 +17,6 @@
   <project path="system/vold" name="android_system_vold" remote="dudu" />  
 
   <!-- Vendor -->
-  <project path="vendor/lineage" name="android_vendor_durandal" remote="dudupriv" />
+  <project path="vendor/lineage" name="android_vendor_bianca" remote="dudupriv" />
 
 </manifest>

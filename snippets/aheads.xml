@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="dudu"
-           fetch="https://github.com/Durandal-Project/"
+           fetch="https://github.com/BiancaProject/"
            revision="r"
            sync-j="16" />
 
@@ -12,11 +12,11 @@
 
   <!-- Private remote -->
   <remote  name="dudupriv"
-           fetch="ssh://git@github.com/Durandal-Project"
+           fetch="ssh://git@github.com/BiancaProject"
            revision="r" />
   
   <include name="snippets/lineage.xml" />
   <include name="snippets/remove.xml" />
-  <include name="snippets/durandal.xml" />
+  <include name="snippets/bianca.xml" />
 
 </manifest>
