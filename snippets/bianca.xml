@@ -7,6 +7,9 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="dudupriv" />
 
+  <!-- Hardware -->
+  <project path="hardware/xiaomi/lavender" name="android_hardware_xiaomi_lavender" remote="dudupriv" />
+
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudupriv" />
 
