@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="LineageOS/android" />
+
   <!-- Device -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
