@@ -32,6 +32,11 @@
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_base" />
 
+  <!-- Hardware -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+
   <!-- Infrastructur LOS -->
   <remove-project name="LineageOS/ansible" />
   <remove-project name="LineageOS/charter" />
