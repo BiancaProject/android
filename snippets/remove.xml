@@ -56,6 +56,7 @@
   <remove-project name="LineageOS/android_system_vold" />
 
   <!-- Vendor -->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <remove-project name="LineageOS/android_vendor_lineage" />
 
 </manifest>

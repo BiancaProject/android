@@ -26,5 +26,6 @@
 
   <!-- Vendor -->
   <project path="vendor/lineage" name="android_vendor_bianca" remote="dudupriv" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="dudupriv"  />
 
 </manifest>
