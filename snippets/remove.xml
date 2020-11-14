@@ -50,6 +50,7 @@
   <remove-project name="LineageOS/contributors-cloud-generator" />
 
   <!-- Pakcages -->
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
 
   <!-- System -->
