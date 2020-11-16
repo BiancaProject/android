@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the Bianca Project trees, use a command like this:
 ```
-repo init -u ssh://git@github.com/BiancaProject/android.git -b r
+repo init -u https://github.com/BiancaProject/android.git -b r
 ```
 Then to sync up:
 ```

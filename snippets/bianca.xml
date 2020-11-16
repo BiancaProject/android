@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="android" name="android" remote="dudupriv" />
+  <project path="android" name="android" remote="dudu" />
 
   <!-- External -->
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="dudu" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="dudupriv" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dudu" />
 
   <!-- Hardware -->
-  <project path="hardware/xiaomi/lavender" name="android_hardware_xiaomi_lavender" remote="dudupriv" />
+  <project path="hardware/xiaomi/lavender" name="android_hardware_xiaomi_lavender" remote="dudu" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="dudu" revision="r-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="dudu" revision="r-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="dudu" revision="r-msm8998" />
 
   <!-- Packages -->
-  <project path="packages/apps/BiancaSettings" name="android_packages_apps_BiancaSettings" remote="dudupriv" />
+  <project path="packages/apps/BiancaSettings" name="android_packages_apps_BiancaSettings" remote="dudu" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="dudu" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudupriv" />
-  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="dudupriv" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudu" />
+  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="dudu" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
@@ -28,7 +28,7 @@
   <project path="system/vold" name="android_system_vold" remote="dudu" />  
 
   <!-- Vendor -->
-  <project path="vendor/lineage" name="android_vendor_bianca" remote="dudupriv" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="dudupriv"  />
+  <project path="vendor/lineage" name="android_vendor_bianca" remote="dudu" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="dudu"  />
 
 </manifest>
