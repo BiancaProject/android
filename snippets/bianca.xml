@@ -19,6 +19,7 @@
   <project path="packages/apps/BiancaSettings" name="android_packages_apps_BiancaSettings" remote="dudupriv" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="dudu" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudupriv" />
+  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="dudupriv" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
