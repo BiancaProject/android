@@ -3,6 +3,9 @@
 
   <remove-project name="LineageOS/android" />
 
+  <!-- Build -->
+  <remove-project name="LineageOS/android_build_soong" />  
+
   <!-- Device -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
