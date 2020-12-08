@@ -34,6 +34,7 @@
 
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
 
   <!-- Hardware -->
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
