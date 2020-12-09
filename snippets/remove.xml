@@ -59,6 +59,7 @@
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
 
   <!-- System -->
+  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_system_vold" />
 
   <!-- Vendor -->
