@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="dudu"
+           fetch="https://github.com/BiancaProject/"
+           revision="11"
+           sync-j="16" />
+
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Private remote -->
+  <remote  name="dudupriv"
+           fetch="ssh://git@github.com/BiancaProject"
+           revision="11" />
+ 
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/bianca.xml" />
+
+</manifest>

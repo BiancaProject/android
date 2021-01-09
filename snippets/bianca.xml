@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="android" remote="dudu" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="dudu" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="dudu" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="dudu" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="dudu" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dudu" />
+
+  <!-- Lineage sdk-->
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="dudu" />
+
+  <!-- Packages -->
+  <project path="packages/apps/BiancaSettings" name="android_packages_apps_BiancaSettings" remote="dudu" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="dudu" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudu" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dudu" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="dudu" />
+  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="dudu" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="dudu" />
+  <project path="system/core" name="android_system_core" remote="dudu" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="dudu" />
+
+  <!-- Vendor -->
+  <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" />
+
+</manifest>

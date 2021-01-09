@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="LineageOS/android" />
+
+  <!-- Build -->
+  <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_build_soong" />
+
+  <!-- Device -->
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/art" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="LineageOS/android_device_generic_goldfish" />
+  <remove-project name="LineageOS/android_device_generic_goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="LineageOS/android_device_google_atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/sample" />
+
+  <!-- External -->
+
+  <!-- Frameworks -->
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+
+  <!-- Infrastructur LOS -->
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/ansible" />
+  <remove-project name="LineageOS/charter" />
+  <remove-project name="LineageOS/cm_crowdin" />
+  <remove-project name="LineageOS/cve_tracker" />
+  <remove-project name="LineageOS/hudson" />
+  <remove-project name="LineageOS/mirror" />
+  <remove-project name="LineageOS/slackbot" />
+  <remove-project name="LineageOS/www" />
+  <remove-project name="LineageOS/lineage_wiki" />
+  <remove-project name="LineageOS/contributors-cloud-generator" />
+
+  <!-- Pakcages -->
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+
+  <!-- System -->
+  <remove-project name="LineageOS/android_system_bt" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="platform/system/hardware/interfaces" />
+
+  <!-- Vendor -->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+</manifest>
