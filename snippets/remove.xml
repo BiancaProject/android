@@ -61,6 +61,7 @@
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/security" />
 
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />
