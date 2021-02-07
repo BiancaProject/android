@@ -21,6 +21,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="dudu" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dudu" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dudu" />
