@@ -42,6 +42,7 @@
   <project path="system/core" name="android_system_core" remote="dudu" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="dudu" />
   <project path="system/security" name="android_system_security" remote="dudu" />
+  <project path="system/vold" name="android_system_vold" remote="dudu" />
 
   <!-- Vendor -->
   <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" />

@@ -60,6 +60,7 @@
   <!-- System -->
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_vold" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/security" />
 
