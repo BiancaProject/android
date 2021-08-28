@@ -23,6 +23,9 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="dudu" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dudu" />
 
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="dudu" />
+
   <!-- Lineage sdk-->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="dudu" />
 
