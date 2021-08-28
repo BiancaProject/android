@@ -19,7 +19,7 @@ repo sync --force-sync --no-tags --no-clone-bundle
 To build, use command:
 ```
 source build/envsetup.sh
-lunch lineage_$device-userdebug
+lunch bianca_$device-userdebug
 mka dudu
 ```
 
@@ -28,3 +28,5 @@ Credits:
  * [**Lineage OS**](https://github.com/LineageOS)
  * [**Nusantara ROM**](https://github.com/Nusantara-ROM)
  * [**Project Sakura**](https://github.com/ProjectSakura)
+ * [**DerpFest-11**](https://github.com/DerpFest-11)
+ * [**exTHmUI**](https://github.com/exthmui)
