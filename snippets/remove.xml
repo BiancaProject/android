@@ -3,6 +3,9 @@
 
   <remove-project name="LineageOS/android" />
 
+  <remove-project name="LineageOS/android_art" />
+  <remove-project name="LineageOS/android_bionic" />
+
   <!-- Build -->
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_soong" />

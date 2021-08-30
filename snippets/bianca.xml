@@ -3,6 +3,9 @@
 
   <project path="android" name="android" remote="dudu" />
 
+  <project path="art" name="android_art" remote="dudu" />
+  <project path="bionic" name="android_bionic" remote="dudu" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="dudu" >
     <copyfile src="core/root.mk" dest="Makefile" />
