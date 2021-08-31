@@ -60,6 +60,11 @@
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
 
+  <!-- Sepolicy -->
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+  <remove-project name="LineageOS/android_device_qcom_sepolicy" />
+  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+
   <!-- System -->
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_system_core" />
