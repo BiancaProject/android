@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="android" remote="dudu" />
+
+  <project path="art" name="android_art" remote="dudu" />
+  <project path="bionic" name="android_bionic" remote="dudu" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="dudu" />
+ 
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="dudu" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="dudu" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/blueprint" name="android_build_blueprint" remote="dudu" />
+
+  <!-- External -->
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="dudu" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dudu" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="dudu" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="dudu" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="dudu" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="dudu" />
+
+  <!-- Packages -->
+  <!--<project path="packages/apps/BiancaSettings" name="android_packages_apps_BiancaSettings" remote="dudu" />-->
+  <!--<project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="dudu" />-->
+  <!--<project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="dudu" />-->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudu" />
+  <!--<project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dudu" />-->
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+  <!-- Sepolicy -->
+  <project path="device/bianca/sepolicy" name="android_device_bianca_sepolicy" remote="dudu" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dudu" />
+  <!--<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="dudu" />-->
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dudu" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dudu" />
+
+  <!-- System -->
+  <!--<project path="system/bt" name="android_system_bt" remote="dudu" />-->
+  <!--<project path="system/core" name="android_system_core" remote="dudu" />-->
+  <!--<project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="dudu" />-->
+  <!--<project path="system/memory/lmkd" name="Wave-Project/system_memory_lmkd" remote="github" revision="r"/>-->
+  <!--<project path="system/security" name="android_system_security" remote="dudu" />-->
+  <!--<project path="system/vold" name="android_system_vold" remote="dudu" />-->
+
+  <!-- Vendor -->
+  <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" />
+  <!--<project path="vendor/gapps" name="arrowos-project/android_vendor_gapps" remote="gitlab" clone-depth="1" revision="arrow-11.0" />-->
+
+</manifest>
