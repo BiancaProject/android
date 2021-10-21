@@ -53,12 +53,12 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dudu" />
 
   <!-- System -->
-  <!--<project path="system/bt" name="android_system_bt" remote="dudu" />-->
-  <!--<project path="system/core" name="android_system_core" remote="dudu" />-->
-  <!--<project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="dudu" />-->
+  <project path="system/bt" name="android_system_bt" remote="dudu" />
+  <project path="system/core" name="android_system_core" remote="dudu" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="dudu" />
   <!--<project path="system/memory/lmkd" name="Wave-Project/system_memory_lmkd" remote="github" revision="r"/>-->
-  <!--<project path="system/security" name="android_system_security" remote="dudu" />-->
-  <!--<project path="system/vold" name="android_system_vold" remote="dudu" />-->
+  <project path="system/security" name="android_system_security" remote="dudu" />
+  <project path="system/vold" name="android_system_vold" remote="dudu" />
 
   <!-- Vendor -->
   <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" />

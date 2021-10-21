@@ -89,5 +89,11 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
  
   <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/vold" />
+
 
 </manifest>
