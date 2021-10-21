@@ -58,6 +58,7 @@
   <project path="system/core" name="android_system_core" remote="dudu" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="dudu" />
   <!--<project path="system/memory/lmkd" name="Wave-Project/system_memory_lmkd" remote="github" revision="r"/>-->
+  <project path="system/qcom" name="android_system_qcom" remote="dudu" />
   <project path="system/security" name="android_system_security" remote="dudu" />
   <project path="system/vold" name="android_system_vold" remote="dudu" />
 
