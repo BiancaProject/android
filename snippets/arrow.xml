@@ -103,7 +103,6 @@
   <!--project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" />-->
 
   <!-- Prebuilts -->
-  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
