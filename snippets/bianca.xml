@@ -24,8 +24,8 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="dudu" />
 
   <!-- External -->
-  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" />
-  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" />
+  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
+  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dudu" />
