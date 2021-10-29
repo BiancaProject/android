@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- External -->
+  <project path="external/bash" name="android_external_bash" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/nano" name="android_external_nano" remote="lineage" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
+  <project path="external/pigz" name="android_external_pigz" remote="lineage" />
+  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
+  <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
+  <project path="external/zip" name="android_external_zip" remote="lineage" />
  
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" revision="lineage-19.0" />
