@@ -47,6 +47,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dudu" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dudu" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="dudu" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dudu" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="dudu" />
