@@ -47,6 +47,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudu" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dudu" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dudu" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dudu" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="dudu" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="dudu" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dudu" />
