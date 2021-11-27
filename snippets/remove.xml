@@ -81,7 +81,6 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/ril" />
  
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
