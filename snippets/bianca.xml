@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="android" name="android" remote="dudu" />
+  <project path="manifest" name="android" remote="dudu" />
   <project path="scripts" name="android_scripts" remote="dudu" revision="master" />
 
   <project path="art" name="android_art" remote="dudu" />
