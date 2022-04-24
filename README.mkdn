@@ -1,0 +1,34 @@
+Bianca Project
+==============
+
+Getting started
+---------------
+
+To get started with Bianca Project, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+
+To initialize your local repository using the Bianca Project trees, use a command like this:
+```
+repo init -u https://github.com/BiancaProject/android.git -b 12.1
+```
+Then to sync up:
+```
+repo sync --force-sync --no-tags --no-clone-bundle
+```
+
+To build, use command:
+```
+source build/envsetup.sh
+lunch $device-userdebug
+m dudu
+```
+
+Credits:
+========
+ * [**Proton AOSP**](https://github.com/ProtonAOSP)
+ * [**Lineage OS**](https://github.com/LineageOS)
+ * [**ArrowOS**](https://github.com/ArrowOS)
+ * [**Nusantara ROM**](https://github.com/Nusantara-ROM)
+ * [**Project Sakura**](https://github.com/ProjectSakura)
+ * [**DerpFest-11**](https://github.com/DerpFest-11)
+ * [**exTHmUI**](https://github.com/exthmui)
