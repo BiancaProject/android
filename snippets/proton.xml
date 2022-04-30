@@ -12,7 +12,6 @@
   <project name="android_external_rsync" path="external/rsync" remote="proton" groups="proton" />
   <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
-  <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" groups="proton" />
   <project name="android_external_libncurses" path="external/libncurses" remote="proton" groups="proton" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
