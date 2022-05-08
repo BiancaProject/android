@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="manifest" name="android" remote="dudu" />
-  <project path="scripts" name="android_scripts" remote="dudu" revision="master" />
+  <project path="scripts" name="scripts" remote="dudu" revision="master" />
 
   <project path="art" name="android_art" remote="dudu" />
   <project path="bionic" name="android_bionic" remote="dudu" />
