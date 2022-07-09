@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- External -->
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+
+  <!-- Hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-19.0" />
 
   <!-- Packages -->
