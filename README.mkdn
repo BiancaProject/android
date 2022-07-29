@@ -23,6 +23,16 @@ lunch $device-userdebug
 m dudu
 ```
 
+To build signed, use command:
+```
+source build/envsetup.sh
+keygen
+lunch $device-user
+m dudu-sign
+```
+
+After creating the keys with `keygen`, you won't need to do it again. Just make sure to backup directory called certs inside the rom root directory.
+
 Credits:
 ========
  * [**Proton AOSP**](https://github.com/ProtonAOSP)
