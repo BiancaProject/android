@@ -20,6 +20,25 @@
   <project name="android_external_armnn" path="external/armnn" remote="proton" groups="proton" />
   <project name="android_external_android-nn-driver" path="external/android-nn-driver" remote="proton" groups="proton" />
   <project name="android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures" path="external/rust/crates/futures" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-channel" path="external/rust/crates/futures-channel" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-core" path="external/rust/crates/futures-core" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-executor" path="external/rust/crates/futures-executor" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-io" path="external/rust/crates/futures-io" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-macro" path="external/rust/crates/futures-macro" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-sink" path="external/rust/crates/futures-sink" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-task" path="external/rust/crates/futures-task" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_futures-util" path="external/rust/crates/futures-util" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_pin-utils" path="external/rust/crates/pin-utils" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_proc-macro-nested" path="external/rust/crates/proc-macro-nested" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_quiche" path="external/rust/crates/quiche" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_ring" path="external/rust/crates/ring" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_slab" path="external/rust/crates/slab" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_thiserror" path="external/rust/crates/thiserror" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio" path="external/rust/crates/tokio" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio-macros" path="external/rust/crates/tokio-macros" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio-stream" path="external/rust/crates/tokio-stream" remote="proton" groups="proton" />
+  <project name="android_external_rust_crates_tokio-test" path="external/rust/crates/tokio-test" remote="proton" groups="proton" />
 
   <!-- Packages -->
   <project name="android_packages_apps_ProtonWallpaperStub" path="packages/apps/ProtonWallpaperStub" remote="proton" groups="proton" />
@@ -27,6 +46,10 @@
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="proton" groups="proton" />
   <project name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="proton" groups="proton" />
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
+  <project name="android_packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="proton" groups="proton" />
+  <project name="android_system_netd" path="system/netd" remote="proton" groups="proton" />
+  <project name="android_packages_modules_common" path="packages/modules/common" remote="proton" groups="proton" />
+  <project name="android_platform_testing" path="platform_testing" remote="proton" groups="proton" />
 
   <!-- Vendor -->
   <project name="android_vendor_lawnicons" path="vendor/lawnicons" remote="proton" groups="proton" />

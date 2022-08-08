@@ -9,6 +9,7 @@
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/libcore" />
+  <remove-project name="platform/platform_testing" />
  
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -82,6 +83,25 @@
   <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/rust/crates/futures" />
+  <remove-project name="platform/external/rust/crates/futures-channel" />
+  <remove-project name="platform/external/rust/crates/futures-core" />
+  <remove-project name="platform/external/rust/crates/futures-executor" />
+  <remove-project name="platform/external/rust/crates/futures-io" />
+  <remove-project name="platform/external/rust/crates/futures-macro" />
+  <remove-project name="platform/external/rust/crates/futures-sink" />
+  <remove-project name="platform/external/rust/crates/futures-task" />
+  <remove-project name="platform/external/rust/crates/futures-util" />
+  <remove-project name="platform/external/rust/crates/pin-utils" />
+  <remove-project name="platform/external/rust/crates/proc-macro-nested" />
+  <remove-project name="platform/external/rust/crates/quiche" />
+  <remove-project name="platform/external/rust/crates/ring" />
+  <remove-project name="platform/external/rust/crates/slab" />
+  <remove-project name="platform/external/rust/crates/thiserror" />
+  <remove-project name="platform/external/rust/crates/tokio" />
+  <remove-project name="platform/external/rust/crates/tokio-macros" />
+  <remove-project name="platform/external/rust/crates/tokio-stream" />
+  <remove-project name="platform/external/rust/crates/tokio-test" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -117,6 +137,8 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/packages/modules/common" />
  
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
@@ -131,6 +153,6 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/vold" />
-
+  <remove-project name="platform/system/netd" />
 
 </manifest>
