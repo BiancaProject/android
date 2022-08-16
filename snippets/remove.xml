@@ -109,7 +109,6 @@
   <remove-project name="platform/packages/services/Telecomm" />
   
   <!-- System -->
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/memory/lmkd" />
