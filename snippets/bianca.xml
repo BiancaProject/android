@@ -27,7 +27,7 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="dudu" />
 
   <!-- External -->
-  <project path="external/faceunlock" name="alanndz/external_faceunlock" remote="gitlab" revision="12" />
+  <!--<project path="external/faceunlock" name="alanndz/external_faceunlock" remote="gitlab" revision="12" />-->
   <project path="external/selinux" name="android_external_selinux" remote="dudu" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="dudu" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="dudu" />
@@ -45,13 +45,13 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="dudu" />
 
   <!-- Packages -->
-  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="dudu" />
+  <!--<project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="dudu" />-->
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="dudu" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="dudu" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="dudu" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="dudu" />
   <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace" remote="github" revision="12.1" />
-  <project path="packages/apps/GmsCompat" name="android_packages_apps_GmsCompat" remote="dudu" />
+  <!--<project path="packages/apps/GmsCompat" name="android_packages_apps_GmsCompat" remote="dudu" />-->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="dudu" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="dudu" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="dudu" />
