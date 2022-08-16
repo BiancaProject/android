@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- External -->
+  <project name="android_external_htop" path="external/htop" remote="proton" groups="proton" />
+  <project name="android_external_p7zip" path="external/p7zip" remote="proton" groups="proton" />
+  <project name="android_external_bash" path="external/bash" remote="proton" groups="proton" />
+  <project name="android_external_nano" path="external/nano" remote="proton" groups="proton" />
+  <project name="android_external_pigz" path="external/pigz" remote="proton" groups="proton" />
+  <project name="android_external_vim" path="external/vim" remote="proton" groups="proton" />
+  <project name="android_external_zip" path="external/zip" remote="proton" groups="proton" />
+  <project name="android_external_rsync" path="external/rsync" remote="proton" groups="proton" />
+  <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
+  <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
+  <project name="android_external_libncurses" path="external/libncurses" remote="proton" groups="proton" />
+  <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
+  <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
+  <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
+  <project name="android_external_openssh" path="external/openssh" remote="proton" groups="proton" />
+  <project name="android_external_armnn" path="external/armnn" remote="proton" groups="proton" />
+  <project name="android_external_android-nn-driver" path="external/android-nn-driver" remote="proton" groups="proton" />
+  <project name="android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="proton" groups="proton" />
+
+  <!-- Packages -->
+  <project name="android_packages_apps_ProtonWallpaperStub" path="packages/apps/ProtonWallpaperStub" remote="proton" groups="proton" />
+  <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="proton" groups="proton" />
+  <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="proton" groups="proton" />
+  <project name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="proton" groups="proton" />
+  <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
+
+  <!-- Vendor -->
+  <project name="android_vendor_lawnicons" path="vendor/lawnicons" remote="proton" groups="proton" />
+
+</manifest>
