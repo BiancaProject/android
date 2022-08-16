@@ -70,7 +70,6 @@
   <remove-project name="platform/external/noto-fonts" />
   <remove-project name="platform/external/roboto-fonts" />
   <remove-project name="platform/external/google-fonts/cutive-mono" />
-  <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/libjpeg-turbo" />
