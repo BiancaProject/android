@@ -31,6 +31,10 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-13.0-caf"/>
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
 
+  <!-- System repos -->
+  <project path="system/qcom" name="android_system_qcom" remote="arrow" revision="arrow-12.1" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" revision="arrow-12.1" />
+
   <!-- Vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
