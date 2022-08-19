@@ -29,8 +29,6 @@
   <!-- External -->
   <!--<project path="external/faceunlock" name="alanndz/external_faceunlock" remote="gitlab" revision="12" />-->
   <project path="external/selinux" name="android_external_selinux" remote="dudu" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="dudu" />
-  <project path="external/tinyxml" name="android_external_tinyxml" remote="dudu" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dudu" />
