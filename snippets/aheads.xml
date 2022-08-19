@@ -8,7 +8,7 @@
 
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
-           revision="arrow-12.1" />
+           revision="arrow-13.0" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
