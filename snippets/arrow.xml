@@ -33,7 +33,6 @@
 
   <!-- System repos -->
   <project path="system/qcom" name="android_system_qcom" remote="arrow" revision="arrow-12.1" />
-  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" revision="arrow-12.1" />
 
   <!-- Vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
