@@ -7,7 +7,6 @@
   <project name="android_external_bash" path="external/bash" remote="proton" groups="proton" />
   <project name="android_external_nano" path="external/nano" remote="proton" groups="proton" />
   <project name="android_external_pigz" path="external/pigz" remote="proton" groups="proton" />
-  <project name="android_external_vim" path="external/vim" remote="proton" groups="proton" />
   <project name="android_external_zip" path="external/zip" remote="proton" groups="proton" />
   <project name="android_external_rsync" path="external/rsync" remote="proton" groups="proton" />
   <!--<project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />-->
