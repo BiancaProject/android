@@ -41,6 +41,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="dudu" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="dudu" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="dudu" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="dudu" />
 
   <!-- Packages -->
   <!--<project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="dudu" />-->
