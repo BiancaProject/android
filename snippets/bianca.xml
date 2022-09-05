@@ -78,6 +78,7 @@
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="dudu" />
   <project path="system/security" name="android_system_security" remote="dudu" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="dudu" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="dudu" />
   <project path="system/vold" name="android_system_vold" remote="dudu" />
 
   <!-- Vendor -->
