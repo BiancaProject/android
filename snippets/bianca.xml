@@ -84,7 +84,7 @@
   <!-- Vendor -->
   <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" />
   <project path="vendor/support" name="android_vendor_support" remote="dudu" />
-  <project path="vendor/gms" name="alanndz/vendor_gms" remote="gitlab" revision="13" />
+  <project path="vendor/gms" name="alanndz/vendor_gms" remote="gitlab" revision="13.1" />
   <project path="vendor/lawnicons" name="LawnchairLauncher/lawnicons" remote="github" revision="develop" />
 
 </manifest>
