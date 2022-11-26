@@ -12,7 +12,7 @@
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="lineage-19.1" />
+           revision="lineage-20.0" />
 
   <remote  name="nad"
            fetch="https://github.com/Nusantara-ROM/"
