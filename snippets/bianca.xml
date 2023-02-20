@@ -27,6 +27,8 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="dudu" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="dudu" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="dudu" />
   <project path="external/selinux" name="android_external_selinux" remote="dudu" />
 
   <!-- Frameworks -->
