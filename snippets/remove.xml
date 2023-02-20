@@ -50,6 +50,8 @@
   <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/jemalloc_new" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
