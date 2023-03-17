@@ -3,7 +3,7 @@
 
   <remote  name="dudu"
            fetch="https://github.com/BiancaProject/"
-           revision="13"
+           revision="13-rebase-android-13.0.0_r35"
            sync-j="16" />
 
   <remote  name="dudu-gitlab"
