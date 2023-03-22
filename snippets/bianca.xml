@@ -2,7 +2,9 @@
 <manifest>
 
   <project path="manifest" name="android" remote="dudu" />
-  <project path="scripts" name="scripts" remote="dudu" revision="master" />
+  <project path="ROMTool" name="ROMTool" remote="dudu" revision="main" >
+    <linkfile src="romtool.sh" dest="romtool" />
+  </project>
   <project path="Changelog" name="Changelog" remote="dudu" revision="13" />
 
   <project path="art" name="android_art" remote="dudu" />
