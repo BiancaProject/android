@@ -97,7 +97,7 @@
   <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" revision="13-rebase-android-13.0.0_r38" />
   <project path="vendor/support" name="android_vendor_support" remote="dudu" />
   <project path="vendor/gms" name="vendor_gms" remote="dudu-gitlab" />
-  <project path="vendor/lawnicons" name="LawnchairLauncher/lawnicons" remote="github" revision="d80e72322c6ffa44bb8359b268ca8fc94006e9a0" />
+  <!-- <project path="vendor/lawnicons" name="LawnchairLauncher/lawnicons" remote="github" revision="d80e72322c6ffa44bb8359b268ca8fc94006e9a0" /> -->
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="dudu" />
 
 </manifest>
