@@ -8,7 +8,7 @@
   <project path="Changelog" name="Changelog" remote="dudu" />
 
   <project path="art" name="android_art" remote="dudu" />
-  <project path="bionic" name="android_bionic" remote="dudu" />
+  <project path="bionic" name="android_bionic" remote="dudu" revision="13-meme" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="dudu" />
   <project path="libcore" name="android_libcore" remote="dudu" />
  
@@ -34,8 +34,8 @@
   <project path="external/selinux" name="android_external_selinux" remote="dudu" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="dudu" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dudu" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="dudu" revision="13-meme" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dudu" revision="13-meme" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="dudu" />
   <project path="frameworks/native" name="android_frameworks_native" remote="dudu" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dudu" />
