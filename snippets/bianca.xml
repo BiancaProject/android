@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifest" name="android" remote="dudu" />
+  <project path="manifest" name="android" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
   <project path="ROMTool" name="ROMTool" remote="dudu" revision="main" >
     <linkfile src="romtool.sh" dest="romtool" />
   </project>
@@ -13,7 +13,7 @@
   <project path="libcore" name="android_libcore" remote="dudu" />
  
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="dudu" >
+  <project path="build/make" name="android_build" remote="dudu" revision="13-rebase-android-13.0.0_r43" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -29,14 +29,14 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="dudu" />
 
   <!-- External -->
-  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="dudu" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="dudu" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
   <project path="external/selinux" name="android_external_selinux" remote="dudu" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dudu" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dudu" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="dudu" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dudu" />
 
   <!-- Hardware -->
@@ -63,7 +63,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="dudu" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="dudu" />
   <project name="android_packages_apps_ProtonWallpaperStub" path="packages/apps/ProtonWallpaperStub" remote="dudu" revision="13.1" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudu" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dudu" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dudu" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dudu" />
@@ -72,7 +72,7 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="dudu" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="dudu" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dudu" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dudu" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
 
   <!-- Prebuilts -->
 
@@ -94,7 +94,7 @@
   <project path="system/vold" name="android_system_vold" remote="dudu" />
 
   <!-- Vendor -->
-  <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" />
+  <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" revision="13-rebase-android-13.0.0_r43" />
   <project path="vendor/support" name="android_vendor_support" remote="dudu" />
   <project path="vendor/gms" name="vendor_gms" remote="dudu-gitlab" />
   <!-- <project path="vendor/lawnicons" name="LawnchairLauncher/lawnicons" remote="github" revision="d80e72322c6ffa44bb8359b268ca8fc94006e9a0" /> -->
