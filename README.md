@@ -13,7 +13,7 @@ repo init -u https://github.com/BiancaProject/android.git -b 13
 ```
 Then to sync up:
 ```
-repo sync --force-sync --no-tags --no-clone-bundle
+repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
 To build, use command:
