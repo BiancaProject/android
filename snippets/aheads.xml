@@ -3,7 +3,7 @@
 
   <remote  name="dudu"
            fetch="https://github.com/BiancaProject/"
-           revision="13"
+           revision="14"
            sync-j="16" />
 
   <remote  name="dudu-gitlab"
@@ -37,7 +37,7 @@
   <!-- Private remote -->
   <remote  name="priv"
            fetch="ssh://git@github.com/BiancaProject"
-           revision="12.1" />
+           revision="14" />
 
   <include name="snippets/remove.xml" />
   <include name="snippets/arrow.xml" />
