@@ -3,7 +3,7 @@
 
   <remote  name="dudu"
            fetch="https://github.com/BiancaProject/"
-           revision="13"
+           revision="13.2"
            sync-j="16" />
 
   <remote  name="dudu-gitlab"
