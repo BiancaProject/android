@@ -87,6 +87,9 @@
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/webp" />
+  <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/libxml2" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -94,6 +97,7 @@
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/colorpicker" />
   
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -120,6 +124,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/NeuralNetworks" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -136,5 +141,7 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
+  <!-- Tools -->
+  <remove-project name="platform/tools/apksig" />
 
 </manifest>
