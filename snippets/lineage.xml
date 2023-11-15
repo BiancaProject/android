@@ -31,4 +31,7 @@
 
   <!-- System -->
   <project path="system/ca-certificates" name="android_system_ca-certificates" remote="lineage" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="lineage" />
 </manifest>
