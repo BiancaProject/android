@@ -101,5 +101,6 @@
   <project path="vendor/gms" name="vendor_gms" remote="dudu-gitlab" />
   <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="dudu" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="dudu" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="dudu" />
 
 </manifest>
