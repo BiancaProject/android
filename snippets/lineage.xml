@@ -12,6 +12,7 @@
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
+  <project path="external/zstd" name="android_external_zstd" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,kona" remote="lineage" revision="lineage-21.0-caf-sm8250" />
