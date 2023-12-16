@@ -2,8 +2,6 @@
 <manifest>
 
   <!-- External -->
-  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="lineage" />
-  <project path="external/armnn" name="android_external_armnn" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />

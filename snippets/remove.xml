@@ -70,8 +70,6 @@
   <!-- External -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/armnn" />
-  <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/zstd" />
 <!--  <remove-project name="platform/external/arm-optimized-routines" />
