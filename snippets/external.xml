@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSP -->
+  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" groups="pdk" revision="refs/heads/main" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
+  <!-- Proton -->
+  <project path="external/p7zip" name="android_external_p7zip" remote="proton" />
+  <project path="external/pigz" name="android_external_pigz" remote="proton" />
+  <project path="external/zip" name="android_external_zip" remote="proton" />
+
+</manifest>

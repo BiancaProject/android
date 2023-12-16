@@ -40,9 +40,8 @@
            revision="14" />
 
   <include name="snippets/remove.xml" />
-  <include name="snippets/arrow.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/proton.xml" />
+  <include name="snippets/external.xml" />
   <include name="snippets/bianca.xml" />
 
 </manifest>

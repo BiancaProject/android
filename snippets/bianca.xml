@@ -12,9 +12,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="dudu" />
 <!--  <project path="libcore" name="android_libcore" remote="dudu" /> -->
 
-  <!-- AOSP -->
-  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" groups="pdk" revision="refs/heads/main" />
- 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="dudu" >
     <copyfile src="core/root.mk" dest="Makefile" />
