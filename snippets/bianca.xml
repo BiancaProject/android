@@ -127,7 +127,7 @@
   <!-- Vendor -->
   <project path="vendor/bianca" name="android_vendor_bianca" remote="dudu" />
   <project path="vendor/support" name="android_vendor_support" remote="dudu" />
-<!--  <project path="vendor/gms" name="vendor_gms" remote="dudu-gitlab" /> -->
+  <project path="vendor/gms" name="vendor_gms" remote="dudu-gitlab" />
   <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="dudu" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="dudu" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="dudu" />
